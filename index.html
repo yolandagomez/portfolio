@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Yolanda Gómez</title>
+    <link rel="stylesheet" href="styles - pruebas.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a89f46791a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<div class="main-wrapper">
+
+    <div class="wrapper">
+        
+        <header class="top">
+            <h1>Yolanda Gómez</h1>
+        </header>
+                
+        <nav class="flex-nav">
+            <div class="toggleNav">
+                <i class="fas fa-bars sandwich"></i>
+            </div>  
+            
+            <ul class="nav">
+                
+                <li class="navigation-li"><a class="nav-link" href="#about">ABOUT</a></li>
+                <li class="navigation-li"><a class="nav-link" href="#gallery">MY PROJECTS</a></li>
+                <li class="navigation-li"><a class="nav-link" href="#contact">CONTACT</a></li>
+            
+            </ul>
+            
+        </nav>
+    
+    </div>
+    <div class="hero">
+        <div class="hero-description">
+            <h1 class="hero-text">Hi! I'm Yolanda ;)</h1>
+        <p>and I'm a web developer based in Barcelona.</p>
+        </div>
+    
+        <div class="main-image"><img class="main-image" src="img/yoli.jpg" alt="">
+        </div>
+    </div> 
+    <!--fin del hero-->
+    <div class="boxes" id="about">
+        <div class="h2-about"><h2>About me</h2></div>
+        <div class="about-text">Officially, I'm a web programmer, food scientist and a food auditor. <br>  Unofficially, I'm a podcaster, public speaker and a clown afficionate.             
+            </div>
+    </div>
+    <div class="my-gallery boxes" id="gallery">
+        <div class="h2-gallery"><h2>My projects</h2>
+        </div>
+        
+        <div class="projects-all">
+            <div class="project1"><img class="project-img" src="img/contact.jpg" alt="birds">
+            </div>
+            <div class="project2"><img class="project-img" src="img/contact.jpg" alt="birds">
+            </div>
+            <div class="project3"><img class="project-img" src="img/contact.jpg" alt="birds">
+            </div>
+            <div class="project4"><img class="project-img" src="img/contact.jpg" alt="birds">
+            </div>
+        </div>
+    </div>
+    
+    <div class="contact boxes" id="contact">
+        
+<!--formulario de contacto-->
+        <div id="container">
+            <h1>&#9826; Keep in Touch &#9826;</h1>
+            
+            <form action="#" method="post" id="contact_form">
+              <div class="name">
+                <label for="name"></label>
+                <input type="text" placeholder="Your name is" name="name" id="name_input" required>
+              </div>
+              <div class="email">
+                <label for="email"></label>
+                <input type="email" placeholder="Your e-mail is" name="email" id="email_input" required>
+              </div>
+        
+                <div class="message">
+                <label for="message"></label>
+                <textarea name="message" placeholder="Write your message here" id="message_input" cols="30" rows="5" required></textarea>
+              </div>
+              <div class="submit">
+                <input type="submit" value="Send Message" id="form_button" />
+              </div>
+            </form><!-- // End form -->
+          </div><!-- // End #container -->
+<!--fin de formulario de contacto-->
+         
+            </p>
+        </div>
+    </div>
+
+</div>
+</body>
+<footer>
+    <button id="myButton"><i class="material-icons">arrow_upward</i></button>
+    
+    <div class="social">
+     <a href="https://www.facebook.com/YoliGomz" target="_blank"><i class="fab fa-facebook-square"></i></a>
+     <a href="https://www.instagram.com/yvgomez101/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+     <a href="https://www.linkedin.com/in/yolanda-g%C3%B3mez-13b4aa11/" target="_blank"><i class="fab fa-linkedin"></i></a> 
+     <script src="script.js"></script>
+    </div> 
+ </footer>  
+</html>
